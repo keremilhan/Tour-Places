@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right top, #000000, #0f0006, #160011, #19011a, #170424, #170424, #170424, #170424, #19011a, #160011, #0f0006, #000000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: "Amatic SC", cursive;
+}
