@@ -12,4 +12,6 @@ body{
     background-repeat: no-repeat;
     min-height: 100vh;
     font-family: "Amatic SC", cursive;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }

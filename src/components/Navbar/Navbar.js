@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import { BrowserRouter as Router, Routes, Route, Outlet, Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -7,22 +8,23 @@ const Navbar = () => {
       <nav>
         <ul>
           <li>
-            <a href="/">HOME</a> 
+            <Link to="/">HOME</Link> 
           </li>
           <li>
-            <a href="/">ABOUT US</a> 
+            <Link to="/about">ABOUT US</Link>
           </li>
           <li>
-            <a href="/">SERVICES</a> 
+            <Link to="/services">SERVICES</Link>
           </li>
           <li>
-            <a href="/">BLOG</a> 
+            <Link to="/blog">BLOG</Link>
           </li>
           <li>
-            <a href="/">CONTACT</a> 
+           <Link to="/contact">CONTACT</Link> 
           </li>
         </ul>
       </nav>
+      <Outlet />
     </div>
     
   )
